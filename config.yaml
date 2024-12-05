@@ -1,0 +1,28 @@
+# Configuration settings for the Transcription App
+
+# Gemini API Configuration
+gemini:
+  api_key: "enter_api_key"  # Replace with your actual Gemini API key
+
+# Directory Settings
+directories:
+  temp_dir: "temp"          # Directory for temporary files (e.g., downloaded audio)
+  output_dir: "Transcriptions"      # Directory where transcriptions will be saved
+
+# Whisper Model Configuration
+whisper:
+  model_size: "small"        # Whisper model size (options: tiny, base, small, medium, large)
+
+# Logging Configuration
+logging:
+  level: "INFO"             # Logging level (options: DEBUG, INFO, WARNING, ERROR, CRITICAL)
+
+# UI Settings
+ui:
+  window_size: 
+    width: 1050
+    height: 1200
+    # Main window size in width x height format
+
+# Additional Configurations
+# Add any other configuration settings below as needed
